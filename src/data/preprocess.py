@@ -45,7 +45,7 @@ def enhance_doc(line):
 
 def main():
     pool = Pool(10)
-    data_f = open("data/ka_transcripts_data.json").read()
+    data_f = open("data/ka_transcripts_data_with_topics.json").read()
     lines = data_f.split("\n")
     lines = pool.imap_unordered(enhance_doc, lines, chunksize=100)
 
