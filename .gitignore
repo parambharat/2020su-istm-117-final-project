@@ -1,5 +1,7 @@
 # data directory
 /data/
+# model directory
+/models/
 
 /venv/
 /.idea/
