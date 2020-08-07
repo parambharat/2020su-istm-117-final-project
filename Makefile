@@ -6,5 +6,5 @@ install:
 
 
 deploy:
-	pipenv run uvicorn app.main:app --reload --workers ${WORKERS} --host ${HOST} --port ${PORT} --log-level ${LOG_LEVEL}
+	pipenv run uvicorn app.main:app
 
