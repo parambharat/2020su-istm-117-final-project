@@ -8,6 +8,13 @@ verify_ssl = true
 [packages]
 requests = "*"
 tqdm = "*"
+tensorflow = "*"
+transformers = "*"
+spacy = "*"
+gensim = "*"
+scikit-learn = "*"
+fastapi = "*"
+
 
 [requires]
 python_version = "3.7"
